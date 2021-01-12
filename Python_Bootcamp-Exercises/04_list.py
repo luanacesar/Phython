@@ -4,18 +4,40 @@ print(len(myList))
 myList = ['one','two','three']
 print(myList[0])
 print(myList[1:])
-another_list =['four','five']
 
+# combine list
+another_list =['four','five']
 joinList = myList + another_list
 print(joinList)
 
+# changing the first element
 joinList[0] = 'ONE'
 print(joinList)
 
-# add element in the end of your list
+# + element in the end of your list
 joinList.append('SIX')
 print(joinList)
 
-# remove elements in the end of your list
+# - elements in the end of your list
 joinList.pop()
 print(joinList)
+
+# to save as removed
+popped_item = joinList.pop()
+print(joinList)
+
+# to remove a element in the begining of the list
+joinList.pop(0)
+print(joinList)
+
+# to sort the list (organizing alphabetical order)
+new_list =['a','e', 'x','b','c']
+num_list =[4,1,8,3]
+new_list.sort()
+print(new_list)
+print(new_list)
+
+# to reserve the list (opposite way)
+new_list.reverse()
+print(new_list)
+
