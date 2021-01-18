@@ -15,5 +15,3 @@ t =(0,0,0,2,3)
 print(t.count('a'))
 
 print(t.index('a'))
-
-t.
